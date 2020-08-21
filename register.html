@@ -1,118 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>register</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/register.css">
-    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
 </head>
+
 <body>
     <!-- txt -->
-  <section class="background text-center text-white d-flex justify-content-center align-items-center">
-    <div class="container">
-        <h2 class="font-weight-bold">REGISTER</h2>
-        <p class="text">HOME / REGISTER</p>
-       </div>
-</section>
-<!-- end of txt -->
-<section class="login my-5">
-    <div class="container">
-        <div class="row">
-            <!-- account -->
-            <div class="col-md-6">
-                <!-- title -->
-                <div class="title">
-                    <h3>CREATE ACCOUNT</h3>
-                    <div class="underline"></div>
-                </div>
-                <!-- end of title -->
-                <div class="card card-body my-3">
-                    <div class="request-form">
-                        <form>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <!-- first name -->
-                                    <div class="form-group">
-                                        <label for="First Name">First Name</label>
-                                        <input type="text"  class="form-control"  placeholder="First Name" id="First Name">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <!-- last name -->
-                                    <div class="form-group">
-                                        <label for="Last Name">Last Name</label>
-                                        <input type="text"  class="form-control"  placeholder="Last Name" id="Last Name">
-                                    </div>
-                                </div>                          
-                                <div class="col-md-6">
-                                    <!-- email -->
-                                    <div class="form-group">
-                                        <label for="Email">Email</label>
-                                        <div class="input-group">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text"> 
-                                                <i class="fa fa-envelope"></i></span>
-                                            </div>
-                                            <input type="email"  class="form-control"  placeholder="Email" id="email">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <!-- password -->
-                                    <div class="form-group">
-                                        <label for="password">Password</label>
-                                        <div class="input-group">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text"> 
-                                                    <i class="fa fa-unlock-alt"></i></span>
-                                            </div>
-                                            <input type="password"  class="form-control"  placeholder="Password" id="password">
-                                        </div>  
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                     <!-- password -->
-                                    <div class="form-group">
-                                        <label for="password">Confirm Password</label>
-                                        <div class="input-group">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text"> 
-                                                <i class="fa fa-unlock-alt"></i></span>
-                                            </div>
-                                            <input type="password"  class="form-control"  placeholder="Password" id="password">
-                                        </div>
-                                        <div id="submit-btn">
-                                            <a href="#" class="btn text-center mt-4" type="submit">CREATE ACCOUNT</a>
-                                        </div>
-                                    </div>
-                                </div>  
-                                
-                                        
+    <section class="background text-center text-white d-flex align-items-center">
+        <div class="container-fluid">
+            <h2 class="font-weight-bold">REGISTER</h2>
+            <nav aria-label="breadcrumb " class="d-flex justify-content-center align-items-center">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">HOME</a></li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">REGISTER</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+    <!-- end of txt -->
+
+    <!-- main content -->
+    <section id="register">
+        <div class="container">
+            <h4 class="mt-5"><b>CREATE ACCOUNT</b></h4>
+            <div class="card card-body">
+                <form action="">
+                    <div class="row">
+                        <!-- first name -->
+                        <div class="col-md-6 col-xs-6">
+                            <div class="form-group">
+                                <label for="Firstname" id="firstname"></label>
+                                <input type="text" class="form-control" placeholder="First Name">
                             </div>
-                            
-                            </form>
+                        </div>
+                        <!-- end of first name -->
+                        <!-- last name -->
+                        <div class="col-md-6 col-xs-6">
+                            <div class="form-group">
+                                <label for="Lastname" id="lastname"></label>
+                                <input type="text" class="form-control" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <!--end of last name -->
+                        <!-- email -->
+                        <div class="col-md-6 col-xs-6">
+                            <div class="form-group">
+                                <label for="Email">Email</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">
+                                            <i class="fa fa-envelope"></i></span>
+                                    </div>
+                                    <input type="email" class="form-control" placeholder="Email" id="email">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of email-->
+                        <!--password -->
+                        <div class="col-md-6 col-xs-6">
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">
+                                            <i class="fa fa-unlock-alt"></i></span>
+                                    </div>
+                                    <input type="password" class="form-control" placeholder="Password" id="password">
+                                </div>
+                            </div>
+                        </div>
+                        <!--end of password-->
+                        <!--password -->
+                        <div class="col-md-6 col-xs-6">
+                            <div class="form-group">
+                                <label for="password">Confirm Password</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">
+                                            <i class="fa fa-unlock-alt"></i></span>
+                                    </div>
+                                    <input type="password" class="form-control" placeholder="Confirm Password" id="password">
+                                </div>
+                            </div>
+                        </div>
+                        <!--end of password-->
                     </div>
-                     
-            
-                
-                
-                           
+                </form>
+                <div id="submit-btn">
+                    <a href="#" class="btn text-center mt-4" type="submit">CREATE ACCOUNT</a>
                 </div>
             </div>
-            <!-- end of account -->
-            
         </div>
-    </div>
-</section>
+    </section>
+    <!-- end of content -->
 
-
-
-
-
-
-<script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.js"></script>
 </body>
+
 </html>
