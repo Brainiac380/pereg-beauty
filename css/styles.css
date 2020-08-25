@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+
+
+.media {
+    margin-top: 100px;
+}
+
 .banner {
     background: linear-gradient(45deg, #00000067, #00000097),url('../img/natural-hair.jpg');
     background-repeat: no-repeat;
@@ -85,22 +91,36 @@
     background: linear-gradient(270deg, #978262, #cbbaa6, #978262);
 }
 
-#footer {
-    background: #553d34;
-    color: #fff;
+
+.contact-list li {
+    margin-bottom: 10px;
 }
 
-#footer ul li{
-    list-style: none;
+
+.customer-reviews .carousel-item .row {
+    margin: 0 30px;
 }
 
-#footer a {
-    color: #fff;
-    text-decoration: none;
+.carousel-control-prev, .carousel-control-next {
+    width: 4% !important;
 }
 
 @media(max-width: 768px) {
     .section-header {
         width: 100%;
     }
+
+    .navbar-nav .dropdown-menu {
+        margin: 0.125rem 0px 0;
+    }
+
+
+    .footer-links, .footer-portfolio {
+        margin-top: 20px;
+    }
+
+    .customer-reviews .carousel-item .row {
+    margin: 0 50px;
+}
+
 }
