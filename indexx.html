@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <span id='top'></span>
     <div id="header" class="wow fadeIn"></div>
     <section class="main-slider">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -378,5 +378,21 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/script.js"></script>
+    <a href='#top' class='top'>&uarr;</a>
+  <style>
+    *{
+      scroll-behavior: smooth;
+    }
+    .top{
+      position: fixed;
+      z-index: 1000;
+      bottom: 15px;
+      right: 5px;
+      padding: 18px;
+      background: linear-gradient(270deg, #978262, #cbbaa6, #978262);
+      color: #fff;
+    }
+  </style>
+</body>
 </body>
 </html>
