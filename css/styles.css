@@ -142,8 +142,7 @@ body {
 .sub-footer {
     background: linear-gradient(270deg, #978262, #cbbaa6, #978262);
 }
-
-
+ 
 .contact-list li {
     margin-bottom: 10px;
 }
@@ -156,7 +155,10 @@ body {
 .carousel-control-prev, .carousel-control-next {
     width: 4% !important;
 }
-
+.login-fa{
+    color: rgb(138, 96, 78);
+} 
+ 
 @media(max-width: 768px) {
     .section-header {
         width: 100%;

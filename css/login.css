@@ -33,15 +33,15 @@ body{
     border-radius: 10px;
 }
 
-.fa{
+.login-fa{
     color: rgb(151, 63, 25);
 } 
 
  #submit-btn a{
-     border: 2px solid rgb(175, 72, 31);
+     border: 2px solid rgb(126, 71, 50);
      padding: 5px 35px;
      color: #ffff;
-     background: rgb(175, 72, 31);
+     background: rgb(126, 71, 50);
      transition: all 0.5s ease-in;
      font-weight: bold;
  }
